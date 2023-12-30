@@ -115,7 +115,7 @@ header h2 {
   text-transform: uppercase;
   color: #9e9e9e;
   border: #9e9e9e solid 1px;
-  padding: clamp(0.2rem, 2vw, 1.6rem) clamp(0.2rem, 2.5vw, 2.6rem);
+  padding: clamp(0.2rem, 1.5vw, 1.6rem) clamp(0.2rem, 2vw, 2.6rem);
   display: inline-block;
 }
 .container-dark h4 {
@@ -141,11 +141,10 @@ header h2 {
   padding-bottom: 3vh;
 }
 .container-light {
-  min-height: 90vh;
+  min-height: 100vh;
   padding-top: 10%;
   margin-left: 15%;
   margin-right: 10%;
-  position: relative;
 }
 .container-light p {
   font-family: Work Sans;
@@ -184,7 +183,7 @@ header h2 {
   text-transform: uppercase;
   color: #666;
   border: #666 solid 1px;
-  padding: clamp(0.2rem, 2vw, 1.6rem) clamp(0.2rem, 2.5vw, 2.6rem);
+  padding: clamp(0.2rem, 1.5vw, 1.6rem) clamp(0.2rem, 2vw, 2.6rem);
   display: inline-block;
 }
 .container-light h4 {
@@ -192,9 +191,8 @@ header h2 {
   font-size: clamp(5rem, 15vw, 16.5rem);
   font-weight: 400;
   color: #666;
-  position: absolute;
-  bottom: 5%;
-  right: 5%;
+  margin-left: 60vw;
+  margin-right: 3vw;
 }
 .container-light a:hover {
   background-color: #000;
@@ -209,6 +207,7 @@ header h2 {
 .orbis {
   background: url(../img/hands.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 90vh;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
@@ -226,6 +225,7 @@ header h2 {
 .galitos {
   background: url(../img/meat.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 90vh;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
@@ -244,6 +244,69 @@ header h2 {
   background-color: #000;
   min-height: 90vh;
 }
-
+.container-what-more {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 .what-more-section h3 {
+  text-align: center;
+  font-size: clamp(2rem, 7vw, 18rem);
+  font-weight: 400;
+  color: #fff;
+  font-family: Work Sans;
+  margin-bottom: 25vh;
+}
+.container-what-more p {
+  margin-left: 40vw;
+  margin-right: 20vw;
+  font-family: Work Sans;
+  font-size: clamp(0.5rem, 2vw, 2.2rem);
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 5.5vh;
+}
+.container-what-more a {
+  margin-left: 40vw;
+  text-decoration: none;
+  font-family: Work Sans;
+  font-size: clamp(0.5rem, 2.5vw, 7rem);
+  font-weight: 400;
+  color: #fff;
+}
+.container-what-more a:hover {
+  text-decoration: underline;
+}
+
+/* - style footer */
+
+footer {
+  min-height: 180vh;
+  text-align: center;
+  padding-top: 30vh;
+}
+footer li {
+  margin-bottom: 20vh;
+}
+footer li a {
+  font-family: Didact Gothic;
+  color: #000;
+  font-weight: 400;
+  font-size: clamp(3rem, 10vw, 16rem);
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  font-size: 1vw;
+  animation: beat 0.25s infinite alternate;
+  display: inline-block;
+}
+
+/* * heartbeat animation */
+
+@keyframes beat {
+  to {
+    transform: scale(1.4);
+  }
 }
