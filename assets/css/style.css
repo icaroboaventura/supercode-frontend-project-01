@@ -244,8 +244,8 @@ header h2 {
   min-height: 90vh;
 }
 .container-what-more {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 .what-more-section h3 {
   text-align: center;
