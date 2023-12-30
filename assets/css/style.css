@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 html {
@@ -169,7 +169,7 @@ header h2 {
 .container-light h3 {
   font-family: Didact Gothic;
   font-size: clamp(1rem, 7vw, 11.2rem);
-  color: #000000;
+  color: #000;
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 5vh;
@@ -177,7 +177,6 @@ header h2 {
 .container-light p:nth-of-type(2) {
   margin-bottom: 10vh;
 }
-
 .container-light a {
   font-family: Fjalla One;
   text-decoration: none;
@@ -240,3 +239,11 @@ header h2 {
 }
 
 /* - style What more? section */
+
+.what-more-section {
+  background-color: #000;
+  min-height: 90vh;
+}
+
+.what-more-section h3 {
+}
