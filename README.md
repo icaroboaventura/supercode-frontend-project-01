@@ -1,1 +1,1 @@
-# supercode-project-1
+# SuperCode Bootcamp Project 1
