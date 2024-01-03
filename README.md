@@ -16,7 +16,5 @@
 - Git
 - Units
 ****
-**Figma-Design:** 
-
-
-
+**Figma-Design:**  
+![designer-portfolio](https://github.com/icaroboaventura/project-designer-portfolio/assets/82503851/adfedecc-f828-4845-a06e-f6164d82787f)
