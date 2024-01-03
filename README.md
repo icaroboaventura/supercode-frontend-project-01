@@ -1,13 +1,14 @@
-### SuperCode Bootcamp 
+### SuperCode Full-Stack Bootcamp 
 ****
 **Name:** Icaro Boaventura  
+ **Week:** 3  
  **Project Nr.:** 1  
  **Project Name:** Designer Portfolio  
- **Project goal:** to put into practice what I learned in the first two weeks of the bootcamp, such as the basics of html and css.  
+ **Project goal:** to put into practice what I learned in the first two weeks of the bootcamp.  
 `Topics like:`  
-- Semantic html
+- Semantic HTML
 - Lists
-- css position
+- CSS Position
 - Box model
 - Padding
 - Margin
