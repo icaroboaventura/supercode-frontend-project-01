@@ -5,7 +5,6 @@
  **Project Nr.:** 1  
  **Project Name:** Designer Portfolio  
  **Project Link:** https://icaroboaventura.github.io/Project-1-Designer-Portfolio-SuperCode/  
- **Project goal:** to put into practice what I learned in the first two weeks of the bootcamp.  
 `Topics like:`  
 - Semantic HTML
 - Lists
